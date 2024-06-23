@@ -1,0 +1,27 @@
+/* Resetování stylů pro všechny elementy */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body stránky */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5eaf1; /* Barva pozadí stránky */
+}
+
+/* Obal pro obsah stránky */
+#root {
+  max-width: 1200px; /* Maximální šířka obsahu stránky */
+  margin: 0 auto; /* Zarovnání obsahu na střed stránky */
+  padding: 20px;
+}
+
+/* Nadpis */
+h1 {
+  text-align: center; /* Zarovnání nadpisu na střed */
+  margin-bottom: 20px;
+  color: #060008; /* Barva textu nadpisu */
+}

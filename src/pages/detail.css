@@ -1,0 +1,51 @@
+/* Resetování stylů pro všechny elementy */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body stránky */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Barva pozadí stránky */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Detail produktu */
+  .product-detail {
+    max-width: 600px; /* Maximální šířka detailu produktu */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-detail h1 {
+    text-align: center; /* Zarovnání nadpisu na střed */
+    margin-bottom: 20px;
+    color: #333; /* Barva textu nadpisu */
+  }
+  
+  .product-detail h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .product-detail p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 1em;
+  }
+  
+  .product-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 1em;
+  }
+  
